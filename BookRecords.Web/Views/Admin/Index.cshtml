@@ -1,0 +1,28 @@
+﻿@using BookRecords.Core.DTOs
+@model List<BookWithAuthorDto>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Kitap</td>
+            <td>Yazar</td>
+            <td>Güncelle</td>
+            <td>Sil</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Author.Name</td>
+                <td><a href=/Admin/Delete/@item.Id class="btn btn-warning">Güncelle</a></td>
+                <td><a href=/Admin/Update/@item.Id class="btn btn-danger">Sil</a></td>                
+            </tr>
+        }
+    </tbody>
+</table>

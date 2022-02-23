@@ -1,0 +1,12 @@
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\bin\Debug\net6.0\BookRecords.Core.deps.json
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\bin\Debug\net6.0\BookRecords.Core.dll
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\bin\Debug\net6.0\ref\BookRecords.Core.dll
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\bin\Debug\net6.0\BookRecords.Core.pdb
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.AssemblyInfoInputs.cache
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.AssemblyInfo.cs
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.csproj.CoreCompileInputs.cache
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.dll
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\ref\BookRecords.Core.dll
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.pdb
+C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.csproj.AssemblyReference.cache
