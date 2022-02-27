@@ -1,4 +1,5 @@
 ﻿using BookRecords.Core;
+using BookRecords.Core.DTOs;
 using BookRecords.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,7 +18,11 @@ namespace BookRecords.Repository.Repositories
 
         public List<Book> GetBookWithAuthor()
         {
-            return _context.Books.Include(x=> x.Author).ToList();
+            return _context.Books.Include(x => x.Author).ToList();
         }
+        public Book GetBook(int id)
+        {
+            return _context.Books.Include(x => x.Author).FirstOrDefault(x => x.Id == id);
+        }         
     }
 }

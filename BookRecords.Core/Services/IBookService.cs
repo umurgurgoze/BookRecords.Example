@@ -10,5 +10,6 @@ namespace BookRecords.Core.Services
     public interface IBookService : IService<Book>
     {
         List<BookWithAuthorDto> GetBookWithAuthor();
+        BookWithAuthorDto GetBook(int id);
     }
 }

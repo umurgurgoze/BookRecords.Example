@@ -9,4 +9,3 @@ C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords
 C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.dll
 C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\ref\BookRecords.Core.dll
 C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.pdb
-C:\Users\umurg\Desktop\BookRecords\BookRecords.Core\obj\Debug\net6.0\BookRecords.Core.csproj.AssemblyReference.cache

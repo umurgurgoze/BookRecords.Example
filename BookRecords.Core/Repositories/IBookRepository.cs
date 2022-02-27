@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookRecords.Core.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace BookRecords.Core.Repositories
     public interface IBookRepository:IGenericRepository<Book>
     {
         List<Book> GetBookWithAuthor();
+        Book GetBook(int id);       
 
     }
 }

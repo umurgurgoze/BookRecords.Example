@@ -23,11 +23,18 @@ namespace BookRecords.Service.Services
 
         }
 
+        public BookWithAuthorDto GetBook(int id)
+        {
+            var book = _bookRepository.GetBook(id);
+            var mappedBook = _mapper.Map<BookWithAuthorDto>(book);
+            return mappedBook;
+        }
+
         public List<BookWithAuthorDto> GetBookWithAuthor()
         {
             var list = _bookRepository.GetBookWithAuthor();
             var mappedList = _mapper.Map<List<BookWithAuthorDto>>(list);
             return mappedList;
-        }
+        }        
     }
 }

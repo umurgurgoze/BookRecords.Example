@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\umurg\Desktop\BookRecords\BookRecords.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/umurg/Desktop/BookRecords/BookRecords.Web/Views/Admin/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/umurg/Desktop/BookRecords/BookRecords.Web/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umurg/Desktop/BookRecords/BookRecords.Web/Views/Admin/View.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlldy5jc2h0bWw=
+[C:/Users/umurg/Desktop/BookRecords/BookRecords.Web/Views/Author/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/umurg/Desktop/BookRecords/BookRecords.Web/Views/Book/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/umurg/Desktop/BookRecords/BookRecords.Web/Views/Home/Index.cshtml]

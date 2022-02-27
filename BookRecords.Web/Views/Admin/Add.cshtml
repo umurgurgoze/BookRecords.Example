@@ -1,0 +1,14 @@
+﻿@model BookRecords.Core.Book
+@{
+    ViewData["Title"] = "Kitap Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Add" asp-controller="Admin" method="post">
+    @Html.Label("Kitap Adı :")
+    @Html.TextBoxFor(x=>x.Name , new{@class="form-control", @style="margin-top:10px"})
+    @Html.Label("Yazar Adı:")
+    @Html.TextBoxFor(x=>x.Author.Name,new{@class="form-control", @style="margin-top:10px"})
+    <button class="btn btn-primary" style="margin-top:10px">Ekle</button>
+</form>
+

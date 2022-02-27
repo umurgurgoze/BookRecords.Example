@@ -1,0 +1,14 @@
+﻿@model BookRecords.Core.Author
+@{
+    ViewData["Title"] = "Yazar Adı Güncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Update" asp-controller="Author" method="post">
+    @Html.Label("Yazar Numarası :")
+    @Html.TextBoxFor(x=>x.Id, new { @class="form-control", @readonly=true,@style="margin-top:10px"})<br />
+    @Html.Label("Yazar Adı : ")
+    @Html.TextBoxFor(x=>x.Name, new { @class="form-control", @style="margin-top:10px"})
+    <button class="btn btn-success" style="margin-top:20px">Güncelle</button>
+</form>
+
