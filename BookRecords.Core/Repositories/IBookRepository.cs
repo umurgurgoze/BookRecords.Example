@@ -10,7 +10,7 @@ namespace BookRecords.Core.Repositories
     public interface IBookRepository:IGenericRepository<Book>
     {
         List<Book> GetBookWithAuthor();
-        Book GetBook(int id);       
+            
 
     }
 }

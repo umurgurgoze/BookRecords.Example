@@ -1,4 +1,5 @@
 ﻿using BookRecords.Core;
+using BookRecords.Core.DTOs;
 using BookRecords.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,10 +18,10 @@ namespace BookRecords.Web.Controllers
             return View("Update", value);
         }
         [HttpPost]
-        public IActionResult Update(Author author)
+        public IActionResult Update(AuthorDto author)
         {
+           
             var value = _service.GetById(author.Id);
-            value.Id = author.Id;
             value.Name = author.Name;
             _service.Update(value);
             return RedirectToAction("Index", "Admin");
